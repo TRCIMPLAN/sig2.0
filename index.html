@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+<!-- ===================================================================================================
+
+        Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.
+
+        3er. generación de la Plataforma del Conocimiento
+        Desarrollado por Ing. Guillermo Valdés Lozano <guivaloz en movimientolibre.com>
+
+        El software que lo construye está bajo la licencia GPL versión 3. © 2014, 2015, 2016, 2017.
+        Una copia está contenida en el archivo LICENCE al bajar desde GitHub.
+
+        Al usar, estudiar y copiar está aceptando los términos de uso de la información y del sitio web:
+          http://www.trcimplan.gob.mx/terminos/terminos-informacion.html
+          http://www.trcimplan.gob.mx/terminos/terminos-sitio.html
+
+        Descargue, estudie y colabore bajando todo este sitio web:
+          IMPLAN Torreón     https://github.com/TRCIMPLAN/trcimplan.github.io
+
+        Agradecemos y compartimos las tecnologías abiertas y gratuitas sobre las que se basa:
+          PHP                http://php.net
+          Twitter Bootstrap  http://getbootstrap.com
+          StartBootStrap     http://startbootstrap.com
+          Morris.js          https://morrisjs.github.io/morris.js/
+          Font Awesome       http://fontawesome.io
+          DataTables         https://www.datatables.net
+          Carto              https://carto.com
+          GitHub             https://github.com
+
+     =================================================================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Órgano técnico responsable de la planeación del desarrollo del municipio de Torreón cuyas propuestas de política tienen una orientación territorial.">
+  <meta name="author" content="TrcIMPLAN Staff">
+  <meta name="keywords" content="IMPLAN, Torreon, Gomez Palacio, Lerdo, Matamoros, La Laguna">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="SIG 2.0">
+  <meta name="twitter:description" content="Órgano técnico responsable de la planeación del desarrollo del municipio de Torreón cuyas propuestas de política tienen una orientación territorial.">
+  <meta name="twitter:image" content="http://www.trcimplan.gob.mx/sig2.0/imagenes/imagen-previa.jpg">
+  <meta name="twitter:url" content="http://www.trcimplan.gob.mx/sig2.0/index.html">
+  <meta name="og:title" content="SIG 2.0">
+  <meta name="og:description" content="Órgano técnico responsable de la planeación del desarrollo del municipio de Torreón cuyas propuestas de política tienen una orientación territorial.">
+  <meta name="og:image" content="http://www.trcimplan.gob.mx/sig2.0/imagenes/imagen-previa.jpg">
+  <meta name="og:url" content="http://www.trcimplan.gob.mx/sig2.0/index.html">
+  <title>SIG 2.0</title>
+  <link rel="shortcut icon" type="image/x-icon" href="imagenes/favicon.png">
+  <link rel="apple-touch-icon" href="imagenes/apple-touch-icon.png">
+  <link rel="apple-touch-icon" href="imagenes/apple-touch-icon-76x76.png" sizes="76x76">
+  <link rel="apple-touch-icon" href="imagenes/apple-touch-icon-120x120.png" sizes="120x120">
+  <link rel="apple-touch-icon" href="imagenes/apple-touch-icon-152x152.png" sizes="152x152">
+  <link rel="apple-touch-icon" href="imagenes/apple-touch-icon-180x180.png" sizes="180x180">
+  <link rel="icon" href="imagenes/icon-hires.png" sizes="192x192">
+  <link rel="icon" href="imagenes/icon-normal.png" sizes="128x128">
+  <link rel="alternate" type="application/rss+xml" href="rss.xml" title="SIG 2.0">
+  <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="vendor/metisMenu/metisMenu.min.css">
+  <link rel="stylesheet" type="text/css" href="vendor/datatables-plugins/dataTables.bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="vendor/morrisjs/morris.css">
+  <link rel="stylesheet" type="text/css" href="vendor/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="dist/css/sb-admin-2.min.css">
+  <link rel="stylesheet" type="text/css" href="dist/css/plataforma-de-conocimiento.css">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Noto+Sans|Roboto+Condensed:400,700">
+  <link rel="stylesheet" type="text/css" href="http://libs.cartocdn.com/cartodb.js/v3/3.15/themes/css/cartodb.css">
+  <link rel="stylesheet" type="text/css" href="dist/css/trcimplan.css">
+  <!-- SOPORTE PARA IE -->
+  <!--[if lt IE 9]>
+  <script type="text/javascript" src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script type="text/javascript" src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"><img class="navbar-brand-img" src="imagenes/implan-barra-logo-chico-gris.png" alt="SIG 2.0"></a>
+    </div>
+  <div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+      <ul class="nav" id="side-menu">
+        <li class="sidebar-search">
+          <form method="get" id="searchbox_015475140351266618625:04hulmghdys" action="http://www.trcimplan.gob.mx/buscador-resultados.html">
+            <input type="hidden" value="015475140351266618625:04hulmghdys" name="cx">
+            <input type="hidden" value="FORID:11" name="cof">
+            <div class="input-group custom-search-form">
+              <input type="text" class="form-control" placeholder="Buscar..." value="" name="s" id="s">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="submit" id="searchsubmit"><i class="fa fa-search"></i></button>
+              </span>
+            </div>
+          </form>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Información Geográfica<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="sig/introduccion.html"><span class="navegacion-icono"><i class="fa fa-file-text-o"></i></span> Introducción al SIG</a></li>
+            <li><a href="sig-planes/index.html"><span class="navegacion-icono"><i class="fa fa-file-pdf-o"></i></span> Planes</a></li>
+            <li><a href="sig-mapas-torreon/index.html"><span class="navegacion-icono"><i class="fa fa-map-marker"></i></span> Mapas de Torreón</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><span class="navegacion-icono"><i class="fa fa-share-alt"></i></span> Términos de Uso<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="terminos/terminos-informacion.html"><span class="navegacion-icono"><i class="fa fa-cubes"></i></span> De la información</a></li>
+            <li><a href="terminos/terminos-sitio.html"><span class="navegacion-icono"><i class="fa fa-globe"></i></span> Del sitio web</a></li>
+            <li><a href="terminos/privacidad.html"><span class="navegacion-icono"><i class="fa fa-lock"></i></span> Aviso de Privacidad</a></li>
+          </ul>
+        </li>
+        <li><a href="contacto/contacto.html"><span class="navegacion-icono"><i class="fa fa-phone"></i></span> Contacto</a></li>
+        <li><a href="http://www.trcimplan.gob.mx/" target="_blank"><span class="navegacion-icono"><i class="fa fa-external-link"></i></span> IMPLAN Torreón</a></li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <div id="page-wrapper">
+  <section id="organizacion">
+    <img class="banner" src="imagenes/banner-implan-2016-11.jpg" alt="TrcIMPLAN Plan Estrategico Torreon 2016-11">
+  <div class="organizacion" itemscope itemtype="http://schema.org/GovernmentOrganization">
+    <img class="organizacion-logotipo" itemprop="image" alt="Instituto Municipal de Planeación y Competitividad de Torreón" src="imagenes/implan-logo.png">
+    <h3 class="organizacion-titulo" itemprop="name">Instituto Municipal de Planeación y Competitividad de Torreón</h3>
+    <div class="organizacion-descripcion" itemprop="description">Órgano técnico responsable de la planeación del desarrollo del municipio de Torreón, Coahuila, México.</div>
+  </div>
+  </section>
+  <section id="destacado">
+    <div class="row">
+      <div class="col-sm-12 col-md-12">
+        <div class="destacado-servicio" itemscope itemtype="http://schema.org/Product">
+          <a id="servicio-sig" class="destacado-imagen" href="sig-mapas-torreon/index.html" title="Sistema de Información Geográfica"></a>
+          <div class="destacado-texto">
+            <a href="sig-mapas-torreon/index.html"><h3 class="destacado-titulo" itemprop="name">Sistema de Información Geográfica</h3></a>
+            <div class="destacado-descripcion" itemprop="description">La representación de datos de diversas fuentes sobre mapas georreferenciados para su fácil análisis constituye una excelente herramienta para todos.</div>
+            <p><a class="btn btn-default destacado-boton" href="sig-planes/index.html" role="button"><i class="fa fa-server"></i> Planes</a> <a class="btn btn-default destacado-boton" href="sig-mapas-torreon/index.html" role="button"><i class="fa fa-map-marker"></i> Mapas de Torreón</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="ultimas-publicaciones">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="ultimas">
+          <h2>Últimas publicaciones</h2>
+      <div class="media breve">
+        <a class="pull-left" href="sig-mapas-torreon/sector-manufacturero.html"><img class="media-object" src="sig-mapas-torreon/sector-manufacturero/imagen-previa.jpg"></a>
+        <div class="media-body">
+          <h3 class="media-heading detallados-encabezado"><a href="sig-mapas-torreon/sector-manufacturero.html">Sector Manufacturero</a></h3>
+          <p class="detallados-descripcion">Mapa referente a las unidades económicas del Sector Manufacturero según el Sistema de Clasificación Industrial de América del Norte. Se muestran los cinco Subsectores elegidos por su peso económico, para el Plan de Política Industrial.</p>
+          <p class="detallados-autor-fecha">Por Arq. Daniela Patricia Corral Hernández, 05/04/2017 15:45</p>
+        </div>
+      </div>
+      <div class="media breve">
+        <a class="pull-left" href="sig-mapas-torreon/predios-que-cuentan-con-uso-suelo-industrial.html"><img class="media-object" src="sig-mapas-torreon/predios-que-cuentan-con-uso-suelo-industrial/imagen-previa.jpg"></a>
+        <div class="media-body">
+          <h3 class="media-heading detallados-encabezado"><a href="sig-mapas-torreon/predios-que-cuentan-con-uso-suelo-industrial.html">Predios que cuentan con Uso de Suelo Industrial</a></h3>
+          <p class="detallados-descripcion">Localización de los predios que cuentan con Uso de Suelo Industrial en la Zona Metropolitana de la Laguna según sus Planes de Desarrollo Urbano vigentes.</p>
+          <p class="detallados-autor-fecha">Por Arq. Daniela Patricia Corral Hernández, 05/04/2017 15:24</p>
+        </div>
+      </div>
+      <div class="media breve">
+        <a class="pull-left" href="sig-mapas-torreon/centros-atencion-adultos-mayores.html"><img class="media-object" src="sig-mapas-torreon/centros-atencion-adultos-mayores/imagen-previa.jpg"></a>
+        <div class="media-body">
+          <h3 class="media-heading detallados-encabezado"><a href="sig-mapas-torreon/centros-atencion-adultos-mayores.html">Centros de Atención a Adultos Mayores</a></h3>
+          <p class="detallados-descripcion">Ubicación de centros de atención a adultos mayores en la ciudad de Torreón Coahuila.</p>
+          <p class="detallados-autor-fecha">Por Arq. Daniela Patricia Corral Hernández, 02/03/2017 09:19</p>
+        </div>
+      </div>
+      <div class="media breve">
+        <a class="pull-left" href="sig-mapas-torreon/cementerios.html"><img class="media-object" src="sig-mapas-torreon/cementerios/imagen-previa.jpg"></a>
+        <div class="media-body">
+          <h3 class="media-heading detallados-encabezado"><a href="sig-mapas-torreon/cementerios.html">Cementerios</a></h3>
+          <p class="detallados-descripcion">Ubicación de cementerios en la ciudad de Torreón.</p>
+          <p class="detallados-autor-fecha">Por Arq. Daniela Patricia Corral Hernández, 21/02/2017 14:28</p>
+        </div>
+      </div>
+          <div class="text-center">
+            <a href="blog/index.html" class="btn btn-default" role="button">Todos los Análisis Publicados</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  </div>
+</div>
+<!-- Javascript global inicia -->
+<script type="text/javascript" src="vendor/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="vendor/metisMenu/metisMenu.min.js"></script>
+<script type="text/javascript" src="vendor/datatables/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="vendor/datatables-plugins/dataTables.bootstrap.min.js"></script>
+<script type="text/javascript" src="vendor/datatables-responsive/dataTables.responsive.js"></script>
+<script type="text/javascript" src="vendor/raphael/raphael.min.js"></script>
+<script type="text/javascript" src="vendor/morrisjs/morris.min.js"></script>
+<script type="text/javascript" src="dist/js/sb-admin-2.min.js"></script>
+<script type="text/javascript" src="http://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js"></script>
+<!-- Javascript global termina -->
+<!-- Javascript inicia -->
+<!-- Javascript termina -->
+</body>
+</html>
