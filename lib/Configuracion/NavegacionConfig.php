@@ -32,7 +32,6 @@ class NavegacionConfig {
     protected $opciones     = array(
         'Información Geográfica' => array(
             'Información Geográfica > Introducción al SIG' => 'sig/introduccion.html',
-            'Información Geográfica > Planes'              => 'sig-planes/index.html',
             'Información Geográfica > Mapas de Torreón'    => 'sig-mapas-torreon/index.html'),
         'Términos de Uso' => array(
             'Términos de Uso > De la información'          => 'terminos/terminos-informacion.html',
@@ -41,10 +40,8 @@ class NavegacionConfig {
         'Contacto'                                         => 'contacto/contacto.html',
         'IMPLAN Torreón'                                   => 'http://www.trcimplan.gob.mx/');
     static public $iconos = array(
-        'Análisis Publicados'     => 'fa fa-lightbulb-o',
         'Información Geográfica'  => 'fa fa-map-marker',
             'Introducción al SIG' => 'fa fa-file-text-o',
-            'Planes'              => 'fa fa-file-pdf-o',
             'Mapas de Torreón'    => 'fa fa-map-marker',
         'Términos de Uso'         => 'fa fa-share-alt',
             'De la información'   => 'fa fa-cubes',

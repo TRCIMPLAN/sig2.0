@@ -46,7 +46,6 @@ class CreadorConfig {
             '\\Contacto\\Imprenta',
             '\\SIG\\Imprenta',
             '\\SIGMapasTorreon\\Imprenta',
-            '\\SIGPlanes\\Imprenta',
             '\\Terminos\\Imprenta');
         $this->imprentas_mapa_sitio     = $this->imprentas;
         $this->imprentas_autores        = array(

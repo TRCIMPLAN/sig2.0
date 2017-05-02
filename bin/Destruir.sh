@@ -29,13 +29,11 @@ SITIO_WEB_DIR="$HOME/Documentos/GitHub/TrcIMPLAN/sig2.0"
 # Definir directorios
 declare -a DIRECTORIOS=(
     "autores"
-    "blog"
     "categorias"
     "contacto"
     "sig"
     "sig-mapas-torreon"
     "sig-planes"
-    "smi"
     "terminos")
 
 # Destruir

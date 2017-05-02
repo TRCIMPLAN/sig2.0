@@ -91,44 +91,6 @@ class PaginaInicialConfig extends \Base\Plantilla {
     } // servicios
 
     /**
-     * Últimas publicaciones
-     */
-    protected function ultimas_publicaciones() {
-        // Iniciar concentrador
-        $concentrador          = new \Base\VinculosDetallados();
-        $concentrador->en_raiz = true;
-        // Iniciar recolector
-        $recolector = new \Base\Recolector();
-        $recolector->agregar_publicaciones_de_imprentas($this->imprentas);
-        // Ordenar publicaciones por tiempo, de la más nueva a la más antigua
-        $recolector->ordenar_por_tiempo_desc();
-        // Bucle por las publicaciones
-        foreach ($recolector->obtener_publicaciones(self::ULTIMAS_PUBLICACIONES_LIMITE) as $publicacion) {
-            // Iniciar vínculo
-            $vinculo          = new \Base\Vinculo();
-            $vinculo->en_raiz = true;
-            $vinculo->en_otro = false;
-            $vinculo->definir_con_publicacion($publicacion);
-            // Agregar
-            $concentrador->agregar($vinculo);
-        }
-        // Acumular Últimas Publicaciones y Twitter Timeline
-        $this->contenido[]  = '  <section id="ultimas-publicaciones">';
-        $this->contenido[]  = '    <div class="row">';
-        $this->contenido[]  = '      <div class="col-md-12">';
-        $this->contenido[]  = '        <div class="ultimas">';
-        $this->contenido[]  = '          <h2>Últimas publicaciones</h2>';
-        $this->contenido[]  = $concentrador->html();
-        $this->contenido[]  = '          <div class="text-center">';
-        $this->contenido[]  = "            <a href=\"blog/index.html\" class=\"btn btn-default\" role=\"button\">Todos los Análisis Publicados</a>";
-        $this->contenido[]  = '          </div>';
-        $this->contenido[]  = '        </div>';
-        $this->contenido[]  = '      </div>';
-        $this->contenido[]  = '    </div>';
-        $this->contenido[]  = '  </section>';
-    } // ultimas_publicaciones
-
-    /**
      * HTML
      *
      * @return string Código HTML
@@ -137,7 +99,6 @@ class PaginaInicialConfig extends \Base\Plantilla {
         // Elaborar secciones
         $this->organizacion();
         $this->servicios();
-        $this->ultimas_publicaciones();
         // Entregar resultado del método en el padre
         return parent::html();
     } // html
