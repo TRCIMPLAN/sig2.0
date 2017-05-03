@@ -30,7 +30,7 @@ class PlantillaConfig {
     public $sitio_titulo    = 'SIG 2.0';                            // Título del sitio
     public $sitio_url       = 'http://www.trcimplan.gob.mx/sig2.0'; // Sin diagonal al final
     public $rss             = 'rss.xml';                            // Archivo con la sindicalización (RSS Feed)
-    public $favicon         = 'imagenes/favicon.png';               // Archivo favicon
+    public $favicon         = 'imagenes/apple-touch-icon.png';      // Archivo favicon
     public $propio_css      = 'dist/css/trcimplan.css';             // CSS propio de este sitio web
     public $en_raiz         = FALSE;                                // Si es verdadero los vínculos serán para un archivo en la raíz del sitio
     public $para_compartir  = TRUE;                                 // Si es verdadero pondrá los metas para tarjetas en Twitter/Facebook

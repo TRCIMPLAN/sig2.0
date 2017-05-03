@@ -161,6 +161,8 @@ a:active  { color:#FF3300; text-decoration:none; }
 }
 .centrado {
     text-align:center;
+    margin-left: auto;
+    margin-right: auto;
 }
 .derecha {
     text-align:right;
@@ -404,6 +406,10 @@ h3.detallados-encabezado { padding:0; border-bottom:none; }
 #destacado {
     background-color:#D1D7DC;
     padding:8px;
+    text-align:center;
+}
+.destacado-imagen {
+    text-align:center;
 }
 .destacado-titulo {
     line-height:1.2em;
@@ -427,6 +433,8 @@ h3.detallados-encabezado { padding:0; border-bottom:none; }
     width:200px;
     height:200px;
     background:url("../../imagenes/servicio-smi.png") no-repeat 0 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 #servicio-smi:hover {
     background-position:-200px 0;
@@ -435,7 +443,9 @@ h3.detallados-encabezado { padding:0; border-bottom:none; }
     display:block;
     width:200px;
     height:200px;
-    background:url("../../imagenes/servicio-sig.png") no-repeat 0 0;
+    background:url("../../imagenes/servicio-sig2.png") no-repeat 0 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 #servicio-sig:hover {
     background-position:-200px 0;
@@ -445,6 +455,8 @@ h3.detallados-encabezado { padding:0; border-bottom:none; }
     width:200px;
     height:200px;
     background:url("../../imagenes/servicio-pem.png") no-repeat 0 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 #servicio-pem:hover {
     background-position:-200px 0;
@@ -454,6 +466,8 @@ h3.detallados-encabezado { padding:0; border-bottom:none; }
     width:200px;
     height:200px;
     background:url("../../imagenes/servicio-pet.png") no-repeat 0 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 #servicio-pet:hover {
     background-position:-200px 0;
@@ -652,7 +666,7 @@ h3.detallados-encabezado { padding:0; border-bottom:none; }
         display:block;
         width:128px;
         height:128px;
-        background:url("../../imagenes/servicio-sig-128.png") no-repeat 0 0;
+        background:url("../../imagenes/servicio-sig2-128.png") no-repeat 0 0;
     }
     #servicio-sig:hover {
         background-position:-128px 0;
@@ -732,7 +746,7 @@ h3.detallados-encabezado { padding:0; border-bottom:none; }
         display:block;
         width:64px;
         height:64px;
-        background:url("../../imagenes/servicio-sig-64.png") no-repeat 0 0;
+        background:url("../../imagenes/servicio-sig2-64.png") no-repeat 0 0;
     }
     #servicio-sig:hover {
         background-position:-64px 0;
@@ -813,7 +827,7 @@ h3.detallados-encabezado { padding:0; border-bottom:none; }
         display:block;
         width:48px;
         height:48px;
-        background:url("../../imagenes/servicio-sig-48.png") no-repeat 0 0;
+        background:url("../../imagenes/servicio-sig2-48.png") no-repeat 0 0;
     }
     #servicio-sig:hover {
         background-position:-48px 0;

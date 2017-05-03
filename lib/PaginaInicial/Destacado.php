@@ -35,7 +35,7 @@ class Destacado extends \Base\SchemaProduct {
     // public $logo;           // ImageObject or URL. An associated logo.
     // public $manufacturer;   // Organization. The manufacturer of the product.
     // public $releaseDate;    // The release date of a product or product model. This can be used to distinguish the exact variant of a product.
-    public $botones;           // Arreglo asociativo como etiqueta => vinculo
+    public $botones = array(); // Arreglo asociativo como etiqueta => vinculo
 
     /**
      * HTML
@@ -53,14 +53,19 @@ class Destacado extends \Base\SchemaProduct {
         }
         // Propiedad image. Si imagen es un archivo .gif .jpg o .png se pone como imagen común
         if (preg_match('/.+\.(gif|jpg|png)$/', $this->imagen)) {
-            $a[] = "          <a href=\"{$this->url}\"><img class=\"destacado-imagen\" src=\"{$this->image}\" alt=\"{$this->name}\"></a>";
+            $a[] = '          <div class="centrado">';
+            $a[] = "            <a href=\"{$this->url}\"><img class=\"destacado-imagen\" src=\"{$this->image}\" alt=\"{$this->name}\"></a>";
+            $a[] = '          </div>';
         } else {
             // De lo contrario se considera un ID que debe estar definido en el archivo CSS para cambiar al pasar el ratón por encima
-            $a[] = "          <a id=\"{$this->image}\" class=\"destacado-imagen\" href=\"{$this->url}\" title=\"{$this->name}\"></a>";
+            $a[] = '          <div class="centrado">';
+            $a[] = "            <a id=\"{$this->image}\" class=\"destacado-imagen\" href=\"{$this->url}\" title=\"{$this->name}\"></a>";
+            $a[] = '          </div>';
         }
         $a[] = '          <div class="destacado-texto">';
         // Propiedad name
-        $a[] = "            <a href=\"{$this->url}\"><h3 class=\"destacado-titulo\" itemprop=\"name\">{$this->name}</h3></a>";
+        $a[] = '            <div class="centrado">';
+        $a[] = "              <a href=\"{$this->url}\"><h3 class=\"destacado-titulo\" itemprop=\"name\">{$this->name}</h3></a>";
         // Propiedad description
         $a[] = "            <div class=\"destacado-descripcion\" itemprop=\"description\">{$this->description}</div>";
         // Propiedad botones
@@ -72,9 +77,10 @@ class Destacado extends \Base\SchemaProduct {
                 $b[] = "<a class=\"btn btn-default destacado-boton\" href=\"$vinculo\" role=\"button\">$etiqueta</a>";
             }
         }
-        $a[] = sprintf("            <p>%s</p>", implode(' ', $b));
-        $a[] = '          </div>'; // destacado-texto
+        $a[] = sprintf("              <p>%s</p>", implode(' ', $b));
+        $a[] = '            </div>'; // destacado-texto
         // Acumular termina
+        $a[] = '          </div>';
         $a[] = '        </div>'; // destacado-servicio
         // Entregar
         return implode("\n", $a);

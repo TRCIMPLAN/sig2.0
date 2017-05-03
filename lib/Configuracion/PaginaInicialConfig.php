@@ -61,7 +61,7 @@ class PaginaInicialConfig extends \Base\Plantilla {
         $organizacion->headline_style = 'organizacion';
         // Acumular
         $this->contenido[] = '  <section id="organizacion">';
-        $this->contenido[] = '    <img class="banner" src="imagenes/banner-implan-2016-11.jpg" alt="TrcIMPLAN Plan Estrategico Torreon 2016-11">';
+        $this->contenido[] = '    <img class="banner" src="imagenes/encabezado.jpg" alt="TrcIMPLAN Plan Estrategico Torreon 2016-11">';
         $this->contenido[] = $organizacion->html();
         $this->contenido[] = '  </section>';
     } // organizacion
@@ -72,17 +72,13 @@ class PaginaInicialConfig extends \Base\Plantilla {
     protected function servicios() {
         // SIG
         $sig              = new \PaginaInicial\Destacado();
-        $sig->name        = 'Sistema de Información Geográfica';
+        $sig->name        = 'Sistema de Información Geográfica 2.0';
         $sig->description = 'La representación de datos de diversas fuentes sobre mapas georreferenciados para su fácil análisis constituye una excelente herramienta para todos.';
         $sig->image       = 'servicio-sig';
         $sig->url         = 'sig-mapas-torreon/index.html';
         // Acumular sección destacado
         $this->contenido[]  = '  <section id="destacado">';
-        $this->contenido[]  = '    <div class="row">';
-        $this->contenido[]  = '      <div class="col-sm-12 col-md-12">';
         $this->contenido[]  = $sig->html();
-        $this->contenido[]  = '      </div>';
-        $this->contenido[]  = '    </div>';
         $this->contenido[]  = '  </section>';
     } // servicios
 
