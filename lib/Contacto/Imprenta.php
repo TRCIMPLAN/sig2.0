@@ -37,11 +37,11 @@ class Imprenta extends \Base\ImprentaPublicaciones {
         $this->titulo                   = 'Contacto';
         $this->descripcion              = 'Le invitamos a establecer contacto con el IMPLAN Torreón.';
         $this->claves                   = 'IMPLAN, Torreon, Contacto, email, Redes Sociales, Teléfono';
-        $this->encabezado_color         = '#008000';
+    //~ $this->encabezado_color         = '#008000';
         // Opción de Navegación a poner activa
         $this->nombre_menu              = 'Contacto';
         // Ruta a la clase para hacer la página con el índice
-        $this->indices_paginas          = '\\Base\\PaginasDetallados'; // Puede ser \Base\PaginasDetallados, \Base\PaginasGalerias, \Base\PaginasListado o \Base\PaginasTarjetas
+        $this->indices_paginas          = '\\Base\\PaginasDetallados';
         // Directorio en la raíz que será creado para alojar el concentrador y las páginas
         $this->directorio               = 'contacto';
         // Ejecutar constructor en el padre

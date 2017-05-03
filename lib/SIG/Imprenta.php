@@ -34,14 +34,14 @@ class Imprenta extends \Base\ImprentaPublicaciones {
         // Nombre del directorio dentro de /lib que contiene las clases con las publicaciones
         $this->publicaciones_directorio = 'SIG';
         // Los siguientes parámetros dan datos para el concentrador y las páginas que no los tienen
-        $this->titulo                   = 'Información Geográfica';
-        $this->descripcion              = 'Información Geográfica del IMPLAN Torreón.';
+        $this->titulo                   = 'Sistema de Información Geográfica 2.0';
+        $this->descripcion              = 'Bienvenido al SIG 2.0';
         $this->claves                   = 'IMPLAN, Torreon, Sistema, Informacion, Geografica, SIG, GIS';
-        $this->encabezado_color         = '#008000';
+    //~ $this->encabezado_color         = '#008000';
         // Opción de Navegación a poner activa
         $this->nombre_menu              = 'Información Geográfica';
         // Ruta a la clase para hacer la página con el índice
-        $this->indices_paginas          = '\\Base\\PaginasDetallados'; // Puede ser \Base\PaginasDetallados, \Base\PaginasGalerias, \Base\PaginasListado o \Base\PaginasTarjetas
+        $this->indices_paginas          = '\\Base\\PaginasDetallados';
         // Directorio en la raíz que será creado para alojar el concentrador y las páginas
         $this->directorio               = 'sig';
         // Ejecutar constructor en el padre

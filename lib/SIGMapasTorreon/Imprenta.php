@@ -25,7 +25,7 @@ namespace SIGMapasTorreon;
 /**
  * Clase Imprenta
  */
-class Imprenta extends \Base\ImprentaPublicacionesClasificadasPorCategorias {
+class Imprenta extends \Base\ImprentaPublicaciones {
 
     /**
      * Constructor
@@ -33,24 +33,18 @@ class Imprenta extends \Base\ImprentaPublicacionesClasificadasPorCategorias {
     public function __construct() {
         // Nombre del directorio dentro de /lib que contiene los archivos con las publicaciones
         $this->publicaciones_directorio = 'SIGMapasTorreon';
-        // Los siguientes parámetros dan datos para el índice/galería que será creado
-        $this->titulo                   = 'Sistema de Información Geográfica de Torreón';
-        $this->descripcion              = 'Mapas con información georreferenciada de Torreón.';
+        // Los siguientes parámetros dan datos para el concentrador y las páginas que no los tienen
+        $this->titulo                   = 'Mapas del Sistema de Información Geográfica 2.0';
+        $this->descripcion              = 'Bienvenido al SIG 2.0.';
         $this->claves                   = 'IMPLAN, SIG, Información, Geográfica, Torreón';
-        $this->encabezado_color         = '#808080';
+    //~ $this->encabezado_color         = '#FFFFFF';
         // Opción de navegación a poner como activa
         $this->nombre_menu              = 'Información Geográfica > Mapas de Torreón';
         // Ruta a la clase para hacer la página con el índice
         $this->indices_paginas          = '\\Base\\PaginasTarjetas';
         // Directorio en la raíz que será creado para alojar el concentrador y las páginas
         $this->directorio               = 'sig-mapas-torreon';
-        // Pasar a la PaginasTarjetas estos parámetros
-        $this->ultimas_encabezado       = 'Últimos mapas del SIG Torreón';
-        $this->ultimas_vinculos         = '\\Base\\VinculosTarjetas';
-        $this->ultimas_cantidad         = 8;
-        $this->categorias_encabezado    = 'Todos los mapas clasificados por categorías';
-        $this->categorias_vinculos      = '\\Base\\VinculosCompactos';
-        // Nivel es el orden de la rama para los índices por autores y categorías, debe ser grande
+        // Nivel es el orden de la rama para los índices por autores y categorías, debe ser un entero grande
         $this->nivel                    = 30000;
         // Ejecutar constructor en el padre
         parent::__construct();

@@ -36,16 +36,15 @@ class PaginaInicialConfig extends \Base\Plantilla {
     public function __construct() {
         parent::__construct();
         // Propiedades para la página inicial
-        $this->en_raiz                  = true;
-        $this->titulo                   = 'SIG 2.0';
-    //~ $this->autor                    = '';
-        $this->descripcion              = 'Órgano técnico responsable de la planeación del desarrollo del municipio de Torreón cuyas propuestas de política tienen una orientación territorial.';
-        $this->claves                   = 'IMPLAN, Torreon, Gomez Palacio, Lerdo, Matamoros, La Laguna';
-        $this->directorio               = '.';
-        $this->archivo_ruta             = "index.html";
-        $this->imagen_previa_ruta       = 'imagenes/imagen-previa.jpg';
-        $this->contenido_en_renglon     = FALSE;
-        $this->google_site_verification = '';
+        $this->en_raiz              = true;
+        $this->titulo               = 'SIG 2.0';
+    //~ $this->autor                = '';
+        $this->descripcion          = 'Órgano técnico responsable de la planeación del desarrollo del municipio de Torreón cuyas propuestas de política tienen una orientación territorial.';
+        $this->claves               = 'IMPLAN, Torreon, Gomez Palacio, Lerdo, Matamoros, La Laguna';
+        $this->directorio           = '.';
+        $this->archivo_ruta         = "index.html";
+        $this->imagen_previa_ruta   = 'imagenes/imagen-previa.jpg';
+        $this->contenido_en_renglon = FALSE;
     } // constructor
 
     /**
@@ -77,9 +76,6 @@ class PaginaInicialConfig extends \Base\Plantilla {
         $sig->description = 'La representación de datos de diversas fuentes sobre mapas georreferenciados para su fácil análisis constituye una excelente herramienta para todos.';
         $sig->image       = 'servicio-sig';
         $sig->url         = 'sig-mapas-torreon/index.html';
-        $sig->botones     = array(
-            '<i class="fa fa-server"></i> Planes'               => 'sig-planes/index.html',
-            '<i class="fa fa-map-marker"></i> Mapas de Torreón' => 'sig-mapas-torreon/index.html');
         // Acumular sección destacado
         $this->contenido[]  = '  <section id="destacado">';
         $this->contenido[]  = '    <div class="row">';
@@ -91,6 +87,21 @@ class PaginaInicialConfig extends \Base\Plantilla {
     } // servicios
 
     /**
+     * Redes
+     */
+    protected function redes() {
+        $this->contenido[] = '  <section id="redes">';
+        $this->contenido[] = '    <div class="pull-right redes-sociales">';
+        $this->contenido[] = '      <a class="fa fa-twitter-square" href="http://www.twitter.com/trcimplan" target="_blank"></a>';
+        $this->contenido[] = '      <a class="fa fa-facebook-square" href="https://facebook.com/trcimplan" target="_blank"></a>';
+        $this->contenido[] = '      <a class="fa fa-google-plus-square" href="https://plus.google.com/106220426241750550649" target="_blank"></a>';
+        $this->contenido[] = '      <a class="fa fa-github-square" href="https://github.com/TRCIMPLAN" target="_blank"></a>';
+        $this->contenido[] = '      <a class="fa fa-rss-square" href="rss.xml"></a>';
+        $this->contenido[] = '    </div>';
+        $this->contenido[] = '  </section>';
+    } // redes
+
+    /**
      * HTML
      *
      * @return string Código HTML
@@ -99,6 +110,7 @@ class PaginaInicialConfig extends \Base\Plantilla {
         // Elaborar secciones
         $this->organizacion();
         $this->servicios();
+        $this->redes();
         // Entregar resultado del método en el padre
         return parent::html();
     } // html

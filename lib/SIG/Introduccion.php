@@ -49,12 +49,12 @@ class Introduccion extends \Base\Publicacion {
         // El estado puede ser 'publicar' (crear HTML y agregarlo a índices/galerías), 'revisar' (sólo crear HTML y accesar por URL) o 'ignorar'
         $this->estado           = 'publicar';
         // Si para compartir es verdadero, aparecerán al final los botones de compartir en Twitter y Facebook
-        $this->para_compartir   = true;
+        $this->para_compartir   = TRUE;
         // El contenido es estructurado en un esquema
         $schema                 = new \Base\SchemaArticle();
         $schema->description    = $this->descripcion;
         $schema->image          = $this->imagen;
-        $schema->image_show     = false;
+        $schema->image_show     = FALSE;
         $schema->name           = $this->nombre;
         $schema->author         = $this->autor;
         $schema->datePublished  = $this->fecha;

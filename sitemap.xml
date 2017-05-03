@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/sig2.0/index.html</loc>
-    <lastmod>2017-05-02</lastmod>
+    <lastmod>2017-05-03</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -16,28 +16,8 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/sig2.0/sig/../sig-planes/index.html</loc>
-    <lastmod>2015-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/sig2.0/sig/../sig-mapas-torreon/index.html</loc>
-    <lastmod>2015-05-14</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/sig2.0/sig-mapas-torreon/ambito-regional-zona-metropolitana-laguna.html</loc>
-    <lastmod>2016-10-27</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/sig2.0/sig-mapas-torreon/areas-verdes.html</loc>
     <lastmod>2016-05-20</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/sig2.0/sig-mapas-torreon/avance-reconversion-tecnologica-led-alumbrado-publico.html</loc>
-    <lastmod>2014-09-08</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -56,21 +36,6 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/sig2.0/sig-mapas-torreon/cobertura-transporte.html</loc>
-    <lastmod>2015-05-14</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/sig2.0/sig-mapas-torreon/crecimiento-decrecimiento-poblacion.html</loc>
-    <lastmod>2015-06-03</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/sig2.0/sig-mapas-torreon/crecimiento-historico-torreon.html</loc>
-    <lastmod>2015-02-03</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/sig2.0/sig-mapas-torreon/infraestructura-sector-salud.html</loc>
     <lastmod>2015-11-04</lastmod>
     <changefreq>monthly</changefreq>
@@ -78,11 +43,6 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/sig2.0/sig-mapas-torreon/infraestructura-vial.html</loc>
     <lastmod>2015-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/sig2.0/sig-mapas-torreon/maternidad-adolescente.html</loc>
-    <lastmod>2015-04-13</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -101,23 +61,8 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://www.trcimplan.gob.mx/sig2.0/sig-mapas-torreon/poligonos-pobreza.html</loc>
-    <lastmod>2016-02-11</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/sig2.0/sig-mapas-torreon/predios-que-cuentan-con-uso-suelo-industrial.html</loc>
-    <lastmod>2017-04-05</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.trcimplan.gob.mx/sig2.0/sig-mapas-torreon/rellenos-sanitarios.html</loc>
     <lastmod>2016-07-06</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/sig2.0/sig-mapas-torreon/sector-manufacturero.html</loc>
-    <lastmod>2017-04-05</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -128,51 +73,6 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/sig2.0/sig-mapas-torreon/vida-en-ciudad.html</loc>
     <lastmod>2015-05-14</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/sig2.0/sig-mapas-torreon/viviendas-con-agua-red-publica.html</loc>
-    <lastmod>2015-04-13</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/sig2.0/sig-mapas-torreon/viviendas-con-computadora.html</loc>
-    <lastmod>2015-04-13</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/sig2.0/sig-mapas-torreon/viviendas-con-drenaje.html</loc>
-    <lastmod>2015-04-13</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/sig2.0/sig-mapas-torreon/viviendas-con-energia-electrica.html</loc>
-    <lastmod>2015-04-13</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/sig2.0/sig-mapas-torreon/viviendas-con-internet.html</loc>
-    <lastmod>2015-04-13</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/sig2.0/sig-mapas-torreon/viviendas-deshabitadas.html</loc>
-    <lastmod>2015-04-13</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/sig2.0/sig-mapas-torreon/viviendas-que-disponen-retrete.html</loc>
-    <lastmod>2015-04-13</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/sig2.0/sig-mapas-torreon/zonificacion-primaria.html</loc>
-    <lastmod>2014-11-18</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>http://www.trcimplan.gob.mx/sig2.0/sig-mapas-torreon/zonificacion-secundaria.html</loc>
-    <lastmod>2014-11-18</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
