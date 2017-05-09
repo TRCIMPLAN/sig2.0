@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.trcimplan.gob.mx/sig2.0/index.html</loc>
-    <lastmod>2017-05-03</lastmod>
+    <lastmod>2017-05-09</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -56,6 +56,11 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/sig2.0/sig-mapas-torreon/peligros-quimicos-tecnologicos.html</loc>
+    <lastmod>2017-05-08</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/sig2.0/sig-mapas-torreon/plantas-tratadoras-aguas-residuales.html</loc>
     <lastmod>2016-06-22</lastmod>
     <changefreq>monthly</changefreq>
@@ -66,6 +71,16 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.trcimplan.gob.mx/sig2.0/sig-mapas-torreon/riesgos-sanitarios-ambientales.html</loc>
+    <lastmod>2017-05-08</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sig2.0/sig-mapas-torreon/riesgos-socio-organizativos.html</loc>
+    <lastmod>2017-05-08</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.trcimplan.gob.mx/sig2.0/sig-mapas-torreon/seguridad-publica.html</loc>
     <lastmod>2015-12-07</lastmod>
     <changefreq>monthly</changefreq>
@@ -73,6 +88,11 @@
   <url>
     <loc>http://www.trcimplan.gob.mx/sig2.0/sig-mapas-torreon/vida-en-ciudad.html</loc>
     <lastmod>2015-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.trcimplan.gob.mx/sig2.0/sig-mapas-torreon/zonas-riesgo-por-desbordamiento-inundacion-o-estancamiento.html</loc>
+    <lastmod>2017-05-08</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>

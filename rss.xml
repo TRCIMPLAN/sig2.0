@@ -5,11 +5,51 @@
     <link>http://www.trcimplan.gob.mx/sig2.0</link>
     <description>Últimas publicaciones del Instituto Municipal de Planeación y Competitividad (IMPLAN) de Torreón.</description>
     <language>es-MX</language>
-    <pubDate>Wed, 03 May 2017 16:01:05 -0500</pubDate>
+    <pubDate>Tue, 09 May 2017 13:00:13 -0500</pubDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Plataforma de Conocimiento v3.0</generator>
     <webMaster>webmaster@trcimplan.mx (Webmaster)</webMaster>
     <atom:link href="http://www.trcimplan.gob.mx/sig2.0/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Riesgos Sanitarios Ambientales</title>
+      <link>http://www.trcimplan.gob.mx/sig2.0/sig-mapas-torreon/riesgos-sanitarios-ambientales.html</link>
+      <guid isPermaLink="false">sig-mapas-torreon-riesgos-sanitarios-ambientales</guid>
+      <pubDate>Mon, 08 May 2017 16:00:00 -0500</pubDate>
+      <author>Arq. Daniela Patricia Corral Hernández</author>
+      <description><![CDATA[<a href="http://www.trcimplan.gob.mx/sig2.0/sig-mapas-torreon/riesgos-sanitarios-ambientales.html"><img src="http://www.trcimplan.gob.mx/sig2.0/sig-mapas-torreon/riesgos-sanitarios-ambientales/imagen.jpg"><br>
+
+Las actividades humanas suceden dentro de un gran sistema de interrelaciones denominado medio ambiente. Dentro de él, existen los subsistemas natural, económico y poblacional, a partir de los cuales, el hombre obtiene materias primas o productos que le permiten sobrevivir y desarrollar sus actividades. En el campo de la producción material, el hombre ejerce impactos de diversa forma e intensidad que provocan en el medio natural, toda clase de cambios, desde los de recuperación lenta, hasta los irreversibles, y que por sí mismos, generan consecuencias en la sociedad.</a>]]></description>
+    </item>
+    <item>
+      <title>Riesgos Socio Organizativos</title>
+      <link>http://www.trcimplan.gob.mx/sig2.0/sig-mapas-torreon/riesgos-socio-organizativos.html</link>
+      <guid isPermaLink="false">sig-mapas-torreon-riesgos-socio-organizativos</guid>
+      <pubDate>Mon, 08 May 2017 16:00:00 -0500</pubDate>
+      <author>Arq. Daniela Patricia Corral Hernández</author>
+      <description><![CDATA[<a href="http://www.trcimplan.gob.mx/sig2.0/sig-mapas-torreon/riesgos-socio-organizativos.html"><img src="http://www.trcimplan.gob.mx/sig2.0/sig-mapas-torreon/riesgos-socio-organizativos/imagen.jpg"><br>
+
+Torreón se caracteriza por ser un centro de servicios y generador de centros de concentración masiva de personas. Dada su situación geográfica, así como su condición cultural y social, existen una gran cantidad de desplazamientos obligados que representan factores de riesgo.</a>]]></description>
+    </item>
+    <item>
+      <title>Zonas de Riesgo por desbordamiento, inundación o estancamiento</title>
+      <link>http://www.trcimplan.gob.mx/sig2.0/sig-mapas-torreon/zonas-riesgo-por-desbordamiento-inundacion-o-estancamiento.html</link>
+      <guid isPermaLink="false">sig-mapas-torreon-zonas-riesgo-por-desbordamiento-inundacion-o-estancamiento</guid>
+      <pubDate>Mon, 08 May 2017 16:00:00 -0500</pubDate>
+      <author>Arq. Daniela Patricia Corral Hernández</author>
+      <description><![CDATA[<a href="http://www.trcimplan.gob.mx/sig2.0/sig-mapas-torreon/zonas-riesgo-por-desbordamiento-inundacion-o-estancamiento.html"><img src="http://www.trcimplan.gob.mx/sig2.0/sig-mapas-torreon/zonas-riesgo-por-desbordamiento-inundacion-o-estancamiento/imagen.jpg"><br>
+
+Zonas de Riesgo por desbordamiento, inundación o estancamiento.</a>]]></description>
+    </item>
+    <item>
+      <title>Peligros Químicos Tecnológicos</title>
+      <link>http://www.trcimplan.gob.mx/sig2.0/sig-mapas-torreon/peligros-quimicos-tecnologicos.html</link>
+      <guid isPermaLink="false">sig-mapas-torreon-peligros-quimicos-tecnologicos</guid>
+      <pubDate>Mon, 08 May 2017 15:59:00 -0500</pubDate>
+      <author>Arq. Daniela Patricia Corral Hernández</author>
+      <description><![CDATA[<a href="http://www.trcimplan.gob.mx/sig2.0/sig-mapas-torreon/peligros-quimicos-tecnologicos.html"><img src="http://www.trcimplan.gob.mx/sig2.0/sig-mapas-torreon/peligros-quimicos-tecnologicos/imagen.jpg"><br>
+
+Son los producidos por accidentes tales como derrames o fugas de sustancias peligrosas, explosiones industriales, entre otros fenómenos derivados de la actividad humana.</a>]]></description>
+    </item>
     <item>
       <title>Centros de Atención a Adultos Mayores</title>
       <link>http://www.trcimplan.gob.mx/sig2.0/sig-mapas-torreon/centros-atencion-adultos-mayores.html</link>
@@ -49,46 +89,6 @@ Ubicación de parques industriales en la ciudad de Torreón.</a>]]></description
       <description><![CDATA[<a href="http://www.trcimplan.gob.mx/sig2.0/sig-mapas-torreon/rellenos-sanitarios.html"><img src="http://www.trcimplan.gob.mx/sig2.0/sig-mapas-torreon/rellenos-sanitarios/imagen.jpg"><br>
 
 Lugares donde se deposita finalmente la basura con múltiples medidas para reducir los problemas generados por otros métodos como son los tiraderos.</a>]]></description>
-    </item>
-    <item>
-      <title>Plantas Tratadoras de Aguas Residuales</title>
-      <link>http://www.trcimplan.gob.mx/sig2.0/sig-mapas-torreon/plantas-tratadoras-aguas-residuales.html</link>
-      <guid isPermaLink="false">sig-mapas-torreon-plantas-tratadoras-aguas-residuales</guid>
-      <pubDate>Wed, 22 Jun 2016 08:00:00 -0500</pubDate>
-      <author>Arq. Daniela Patricia Corral Hernández</author>
-      <description><![CDATA[<a href="http://www.trcimplan.gob.mx/sig2.0/sig-mapas-torreon/plantas-tratadoras-aguas-residuales.html"><img src="http://www.trcimplan.gob.mx/sig2.0/sig-mapas-torreon/plantas-tratadoras-aguas-residuales/imagen.jpg"><br>
-
-Retiran los contaminantes del agua para que no haya riesgos a la salud y al medio ambiente.</a>]]></description>
-    </item>
-    <item>
-      <title>Áreas Verdes</title>
-      <link>http://www.trcimplan.gob.mx/sig2.0/sig-mapas-torreon/areas-verdes.html</link>
-      <guid isPermaLink="false">sig-mapas-torreon-areas-verdes</guid>
-      <pubDate>Fri, 20 May 2016 08:00:00 -0500</pubDate>
-      <author>Arq. Daniela Patricia Corral Hernández</author>
-      <description><![CDATA[<a href="http://www.trcimplan.gob.mx/sig2.0/sig-mapas-torreon/areas-verdes.html"><img src="http://www.trcimplan.gob.mx/sig2.0/sig-mapas-torreon/areas-verdes/imagen.jpg"><br>
-
-Mapa de localización de áreas verdes en la ciudad de Torreón.</a>]]></description>
-    </item>
-    <item>
-      <title>Seguridad Pública</title>
-      <link>http://www.trcimplan.gob.mx/sig2.0/sig-mapas-torreon/seguridad-publica.html</link>
-      <guid isPermaLink="false">sig-mapas-torreon-seguridad-publica</guid>
-      <pubDate>Mon, 07 Dec 2015 16:17:00 -0600</pubDate>
-      <author>Arq. Daniela Patricia Corral Hernández</author>
-      <description><![CDATA[<a href="http://www.trcimplan.gob.mx/sig2.0/sig-mapas-torreon/seguridad-publica.html"><img src="http://www.trcimplan.gob.mx/sig2.0/sig-mapas-torreon/seguridad-publica/imagen.jpg"><br>
-
-Instituciones dedicadas a proteger la integridad de los ciudadanos y sus bienes.</a>]]></description>
-    </item>
-    <item>
-      <title>Infraestructura del Sector Salud</title>
-      <link>http://www.trcimplan.gob.mx/sig2.0/sig-mapas-torreon/infraestructura-sector-salud.html</link>
-      <guid isPermaLink="false">sig-mapas-torreon-infraestructura-sector-salud</guid>
-      <pubDate>Wed, 04 Nov 2015 16:53:00 -0600</pubDate>
-      <author>Arq. Daniela Patricia Corral Hernández</author>
-      <description><![CDATA[<a href="http://www.trcimplan.gob.mx/sig2.0/sig-mapas-torreon/infraestructura-sector-salud.html"><img src="http://www.trcimplan.gob.mx/sig2.0/sig-mapas-torreon/infraestructura-sector-salud/imagen.jpg"><br>
-
-Instituciones, Hospitales y Clínicas, públicas y privadas que proporcionan servicios de salud.</a>]]></description>
     </item>
   </channel>
 </rss>
